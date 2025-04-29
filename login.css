@@ -24,6 +24,7 @@ body {
     padding: 50px;
     border: 2px solid white;
     background-color: white;
+    border-radius: 40px;
     width: min-content;
     ;
 }
@@ -210,12 +211,17 @@ border-bottom: 0.5px solid orangered;
 
 
 @media (max-width: 500px) {
-    .login {
-        min-width: 90%;
-        padding: 30px;
+    body {
+        align-items: stretch;
+        background: white;
     }
-    .buttonlogin input {
-        width: 200px;
+
+    .login {
+        width: 100%;
+        
+        height: 100vh;
+        border-radius: 0;
+        padding: 30px;
     }
 }
 
